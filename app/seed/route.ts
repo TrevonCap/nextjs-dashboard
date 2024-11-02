@@ -101,8 +101,6 @@
    return insertedRevenue;
  }
 
-
-  });
    try {
      await client.sql`BEGIN`;
      await seedUsers();
